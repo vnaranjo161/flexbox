@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #000000;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ul{
+    list-style: none;
+    justify-content: space-around;
+
+}
+ul li a{
+    text-decoration: none;
+}
+
+ul li{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: #acacac;
+    height: 35px;
+    width: 300px;
+    margin: 5px;
+    padding: 5px;
+}
+input[type="button"]{
+    border: none;
+}

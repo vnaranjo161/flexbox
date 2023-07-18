@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1100px;
+    font-family: 'Lato', sans-serif;
+}
+header{
+    padding-top: 35px;
+    background-color: salmon;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    align-items: center;
+}
+
+nav{
+    background-color: #1bbc9b;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    font-size: 17px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.container{
+    display: flex;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 3;
+    padding: 10px;
+    font-size: 17px;
+}
+aside img{
+    height: 200px;
+    width: 400px;
+    margin-top: 5px;
+}
+section img{
+    height: 200px;
+    width: 668px;
+}
+
+#f400{
+    height: 400px;
+    width: 400px;
+}
+
+section{
+    flex-grow: 7;
+    padding: 10px;
+    font-size: 17px;
+}
+
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(176, 176, 176);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    margin: 15px;
+}
+p{
+    margin: 8px;
+}
+
+article{
+    border-bottom: 1px solid black;
+}
